@@ -102,7 +102,7 @@ body {
 
 .project-item {
     display: grid;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 100px 1fr;
     gap: 16px;
     align-items: baseline;
     text-decoration: none;
