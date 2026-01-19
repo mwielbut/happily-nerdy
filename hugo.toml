@@ -6,6 +6,10 @@ theme = 'happily-nerdy'
 # Disable unused features for minimal build
 disableKinds = ['taxonomy', 'term']
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    
 [params]
   siteName = 'Happily Nerdy'
   author = 'Matt Wielbut'
