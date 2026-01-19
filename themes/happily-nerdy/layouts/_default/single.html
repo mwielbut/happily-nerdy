@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-header">
+    <span class="post-category">{{ .Params.category }}</span>
+    <h2 class="post-title">{{ .Title }}</h2>
+    <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+      {{ .Date.Format "January 2, 2006" }}
+    </time>
+  </header>
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  <nav class="post-nav">
+    <a href="/" class="back-link">← Back to home</a>
+  </nav>
+</article>
+{{ end }}

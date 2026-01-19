@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="section">
+  <h2 class="section-title">Projects, interests, and explorations</h2>
+  <div class="project-list">
+    {{- range where .Site.RegularPages "Section" "projects" }}
+    {{- partial "project-item.html" . }}
+    {{- end }}
+  </div>
+</section>
+{{ end }}

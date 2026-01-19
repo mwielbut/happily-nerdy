@@ -1,0 +1,9 @@
+<!-- <div class="logo"></div> -->
+
+<header class="header">
+  <h1 class="name">{{ .Site.Title }}</h1>
+  <p class="role">{{ .Site.Params.author }}</p>
+  {{ if .IsHome }}
+  <p class="bio">{{ .Site.Params.bio | safeHTML}}</p>
+  {{ end }}
+</header>

@@ -1,0 +1,8 @@
+name = "Happily Nerdy"
+license = "MIT"
+licenselink = "https://github.com/mwielbut/happily-nerdy/blob/main/LICENSE"
+description = "A minimal personal blog theme"
+
+[author]
+  name = "Matt Wielbut"
+  homepage = "https://happilynerdy.com"

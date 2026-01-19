@@ -1,0 +1,21 @@
+baseURL = 'https://happilynerdy.com/'
+languageCode = 'en-us'
+title = 'Happily Nerdy'
+theme = 'happily-nerdy'
+
+# Disable unused features for minimal build
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  siteName = 'Happily Nerdy'
+  author = 'Matt Wielbut'
+  bio = 'Ex-finance programmer, left to pursue semantic businesses search, co-founded education technology startup Recitate and insurance startup Elements Insurance (sold in 2020 to Titan Insurance).  <br><br>Currently building <a href="https://openly.com">Openly</a>, a next-generation home & auto insurance company.<br><br>Still happily nerdy.'
+
+  # Social links
+  github = 'mwielbut'
+  linkedin = 'matt-wielbut'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
