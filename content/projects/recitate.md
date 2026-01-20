@@ -1,7 +1,7 @@
 ---
 title: 'Recitate'
 date: 2024-01-04
-draft: false
+draft: true
 category: 'Company'
 ---
 

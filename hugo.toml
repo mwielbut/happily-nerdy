@@ -13,7 +13,7 @@ disableKinds = ['taxonomy', 'term']
 [params]
   siteName = 'Happily Nerdy'
   author = 'Matt Wielbut'
-  bio = 'Ex-finance programmer, left to pursue semantic businesses search, co-founded education technology startup Recitate and insurance startup Elements Insurance (sold in 2020 to Titan Insurance).  <br><br>Currently building <a href="https://openly.com">Openly</a>, a next-generation home & auto insurance company.<br><br>Still happily nerdy.'
+  bio = 'Ex-finance programmer, left to pursue semantic businesses search, co-founded education technology startup Recitate and insurance startup Elements Insurance (sold in 2020 to Titan Insurance).  <br><br>Currently building <a href="https://openly.com">Openly</a>, a next-generation home & auto insurance company.'
 
   # Social links
   github = 'mwielbut'

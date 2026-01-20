@@ -112,7 +112,7 @@ body {
 .project-item {
     display: grid;
     grid-template-columns: 100px 1fr;
-    gap: 16px;
+    gap: 10px;
     align-items: baseline;
     text-decoration: none;
     color: inherit;
@@ -267,7 +267,12 @@ body {
     }
 
     .project-item {
-        grid-template-columns: 48px 1fr;
+        grid-template-columns: 1fr;
+        gap: 0px
+    }
+
+    .project-index {
+        margin-bottom: -1px;
     }
 
     .theme-toggle {

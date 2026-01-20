@@ -1,7 +1,7 @@
 ---
 title: 'Openly'
 date: 2024-01-02
-draft: false
+draft: true
 category: 'Company'
 ---
 
