@@ -1,7 +1,7 @@
 ---
 title: '1973 Bronco'
 date: 2024-01-01
-draft: false
+draft: true
 category: 'Restoration'
 ---
 
