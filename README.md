@@ -55,4 +55,5 @@ Edit `hugo.toml` to update:
 
 ## Deployment
 
-Run `hugo` to generate static files in the `public/` directory. Deploy to any static hosting service (Netlify, Vercel, GitHub Pages, etc.).
+Deployment happens automatically via Github actions in Github pages.
+https://gohugo.io/host-and-deploy/host-on-github-pages/
