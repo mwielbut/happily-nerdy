@@ -3,7 +3,16 @@
     --color-surface: #FFFFFF;
     --color-text: #1A1A1A;
     --color-text-secondary: #888888;
+    --color-border: #EBEBEB;
     --font-main: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+[data-theme="dark"] {
+    --color-bg: #1A1A1A;
+    --color-surface: #262626;
+    --color-text: #F5F5F5;
+    --color-text-secondary: #888888;
+    --color-border: #333333;
 }
 
 * {
@@ -132,7 +141,7 @@ body {
     gap: 24px;
     margin-top: 48px;
     padding-top: 48px;
-    border-top: 1px solid #EBEBEB;
+    border-top: 1px solid var(--color-border);
 }
 
 .links a {
@@ -208,7 +217,7 @@ body {
 .post-nav {
     margin-top: 48px;
     padding-top: 48px;
-    border-top: 1px solid #EBEBEB;
+    border-top: 1px solid var(--color-border);
 }
 
 .back-link {
@@ -220,6 +229,31 @@ body {
 
 .back-link:hover {
     color: var(--color-text);
+}
+
+/* Theme Toggle */
+.theme-toggle {
+    position: absolute;
+    top: clamp(40px, 8vw, 80px);
+    right: clamp(40px, 8vw, 80px);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    color: var(--color-text-secondary);
+    transition: color 0.2s ease;
+}
+
+.theme-toggle:hover {
+    color: var(--color-text);
+}
+
+.theme-toggle svg {
+    display: block;
+}
+
+.container {
+    position: relative;
 }
 
 /* Responsive */
@@ -234,5 +268,10 @@ body {
 
     .project-item {
         grid-template-columns: 48px 1fr;
+    }
+
+    .theme-toggle {
+        top: 32px;
+        right: 24px;
     }
 }

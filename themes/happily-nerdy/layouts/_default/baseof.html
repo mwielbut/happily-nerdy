@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
+  <script>
+    (function() {
+      var stored = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = stored || (prefersDark ? 'dark' : 'light');
+      if (theme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+  </script>
   {{- partial "head.html" . -}}
 </head>
 <body>
@@ -11,5 +19,28 @@
     </main>
     {{- partial "footer.html" . -}}
   </div>
+  <script>
+    (function() {
+      var toggle = document.querySelector('.theme-toggle');
+      var sunIcon = document.querySelector('.icon-sun');
+      var moonIcon = document.querySelector('.icon-moon');
+
+      function updateIcons() {
+        var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        sunIcon.style.display = isDark ? 'none' : 'block';
+        moonIcon.style.display = isDark ? 'block' : 'none';
+      }
+
+      updateIcons();
+
+      toggle.addEventListener('click', function() {
+        var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        var newTheme = isDark ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        updateIcons();
+      });
+    })();
+  </script>
 </body>
 </html>
