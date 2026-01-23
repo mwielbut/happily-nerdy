@@ -1,10 +1,13 @@
 {{ define "main" }}
+{{- $publishedProjects := where .Site.RegularPages "Section" "projects" }}
+{{- if $publishedProjects }}
 <section class="section">
   <h2 class="section-title">Projects, interests, and explorations</h2>
   <div class="project-list">
-    {{- range where .Site.RegularPages "Section" "projects" }}
+    {{- range $publishedProjects }}
     {{- partial "project-item.html" . }}
     {{- end }}
   </div>
 </section>
+{{- end }}
 {{ end }}

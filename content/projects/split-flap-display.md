@@ -1,7 +1,7 @@
 ---
 title: 'Split Flap Display'
 date: 2024-01-05
-draft: false
+draft: true
 category: 'Hardware'
 ---
 
