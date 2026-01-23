@@ -13,7 +13,7 @@ disableKinds = ['taxonomy', 'term']
 [params]
   siteName = 'Happily Nerdy'
   author = 'Matt Wielbut'
-  bio = 'Ex-finance programmer, left to pursue semantic businesses search, co-founded education technology startup Recitate and insurance startup Elements Insurance (sold in 2020 to Titan Insurance).  <br><br>Currently building <a href="https://openly.com">Openly</a>, a next-generation home & auto insurance company.'
+  bio = 'Currently building <a href="https://openly.com">Openly</a>, a next-generation home & auto insurance company.<br><br>Previously, co-founded education technology startup Recitate and insurance startup Elements Insurance (sold in 2020 to Titan Insurance) and spent way too much time playing with graph-based semantic search (Peekful). <br><br>In a past life, VP in Engineering at <a href="https://gs.com">Goldman Sachs</a>.'
 
   # Social links
   github = 'mwielbut'
