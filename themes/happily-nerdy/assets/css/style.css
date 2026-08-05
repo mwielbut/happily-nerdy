@@ -136,6 +136,71 @@ body {
     font-weight: 500;
 }
 
+/* Press List */
+.press-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.press-item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+    align-items: baseline;
+    text-decoration: none;
+    color: inherit;
+    padding: 4px 0;
+    transition: opacity 0.2s ease;
+}
+
+.press-item:hover {
+    opacity: 0.6;
+}
+
+.press-item:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}
+
+.press-year {
+    font-size: 0.9375rem;
+    color: var(--color-text-secondary);
+    font-variant-numeric: tabular-nums;
+}
+
+.press-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    min-width: 0;
+}
+
+.press-title {
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+
+.press-source {
+    font-size: 0.9375rem;
+    color: var(--color-text-secondary);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Arrow stays in flow at opacity 0, so revealing it shifts nothing */
+.press-ext {
+    flex: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.press-item:hover .press-ext,
+.press-item:focus-visible .press-ext {
+    opacity: 1;
+}
+
 /* Links */
 .links {
     display: flex;
@@ -273,6 +338,15 @@ body {
     }
 
     .project-index {
+        margin-bottom: -1px;
+    }
+
+    .press-item {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .press-year {
         margin-bottom: -1px;
     }
 
