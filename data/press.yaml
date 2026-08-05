@@ -1,0 +1,54 @@
+# Writing & press — articles written by Matt, and media that mentioned him.
+#
+# One entry per item. All four keys are required:
+#
+#   title:       the headline, as published
+#   publication: the outlet name, shown beneath the title
+#   url:         full https:// link to the article
+#   date:        publication date, "YYYY-MM-DD", QUOTED
+#
+# The quotes around `date` matter: they keep it a string, which sorts
+# lexicographically in the same order it sorts chronologically. Entries are
+# sorted newest-first at render time, so order in this file does not matter.
+# Only the year is displayed.
+#
+# Where a piece was syndicated, this links the ORIGINAL publisher rather than
+# the Openly repost — the reposts carry a "last updated" stamp that is not the
+# publication date.
+#
+# The homepage section is hidden entirely while this list is empty.
+
+- title: "API Governance Habits That Support Secure, Scalable Growth"
+  publication: "Forbes"
+  url: "https://www.forbes.com/councils/forbestechcouncil/2026/08/03/api-governance-habits-that-support-secure-scalable-growth/"
+  date: "2026-08-03"
+
+- title: "Agents want AI, but face policy and training hurdles"
+  publication: "Digital Insurance"
+  url: "https://www.dig-in.com/news/agents-want-ai-but-face-policy-and-training-hurdles"
+  date: "2026-07-14"
+
+- title: "Why 2026 Is the Inflection Point for Insurance AI"
+  publication: "Openly"
+  url: "https://openly.com/the-open-door/articles/2026-is-the-inflection-point-for-insurance-ai-openly"
+  date: "2026-06-18"
+
+- title: "Gen AI Fuels Insurance Fraud Arms Race"
+  publication: "Insurance Thought Leadership"
+  url: "https://www.insurancethoughtleadership.com/ai-machine-learning/gen-ai-fuels-insurance-fraud-arms-race"
+  date: "2026-04-29"
+
+- title: "Why AI is the Insurance Agent's Best Friend, Not Worst Enemy"
+  publication: "The AI Journal"
+  url: "https://aijourn.com/why-ai-is-the-insurance-agents-best-friend-not-worst-enemy/"
+  date: "2025-06-18"
+
+- title: "Startup Lessons from Openly's $200M Raise"
+  publication: "Startup Fundraising"
+  url: "https://startupfundraising.com/library/articles/ty-harris-and-matt-wielbut"
+  date: "2023-03-08"
+
+- title: "Google's Gradient Ventures invests in Openly's $7.65m seed round"
+  publication: "Silicon Republic"
+  url: "https://www.siliconrepublic.com/start-ups/openly-funding-round-gradient-ventures"
+  date: "2019-11-26"

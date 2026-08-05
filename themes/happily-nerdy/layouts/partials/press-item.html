@@ -1,0 +1,7 @@
+<a href="{{ .url }}" class="press-item" target="_blank" rel="noopener">
+  <span class="press-year">{{ substr .date 0 4 }}</span>
+  <span class="press-body">
+    <span class="press-title">{{ .title }}</span>
+    <span class="press-source">{{ .publication }}<svg class="press-ext" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M8 7h9v9"></path></svg></span>
+  </span>
+</a>
