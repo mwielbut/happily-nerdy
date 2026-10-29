@@ -18,6 +18,11 @@
 #
 # The homepage section is hidden entirely while this list is empty.
 
+- title: "Why AI Belongs In The First Mile Of A Purchase, Not The Last"
+  publication: "Forbes"
+  url: "https://www.forbes.com/councils/forbestechcouncil/2026/10/28/why-ai-belongs-in-the-first-mile-of-a-purchase-not-the-last/"
+  date: "2026-10-28"
+
 - title: "How To Build Failover Plans For AI Agent-Dependent Operations"
   publication: "Forbes"
   url: "https://www.forbes.com/councils/forbestechcouncil/2026/08/26/how-to-build-failover-plans-for-ai-agent-dependent-operations/"
